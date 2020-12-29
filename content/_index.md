@@ -26,4 +26,4 @@ You can contact me for any reason at [tiago@tdias.pt](mailto:tiago@tdias.pt).
 
 - [Portugal COVID19 Charts](https://covid19.tdias.pt/) - Some charts I've been working on since the beginning of the pandemic. Built with pandas and matplotlib through Github Actions, using [data](https://github.com/dssg-pt/covid19pt-data) from Data Science for Social Good Portugal.
 
-## Blog posts
+## Blog posts ([RSS](/atom.xml))
