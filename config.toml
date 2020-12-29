@@ -1,6 +1,6 @@
 base_url = "https://tdias.pt"
 title = "Tiago Dias"
-description = "My personal blog."
+description = "My personal site and blog"
 
 compile_sass = true
 highlight_code = true
