@@ -1,0 +1,12 @@
+name = "tdias-pt"
+type = "webpack"
+account_id = "f5de9e17f4bba0eeaab2ffc086c7c9ef"
+workers_dev = true
+
+[env.production]
+zone_id = "4326efc91981b8d209d8d57b6e00689e"
+route = "tdias.pt/*"
+
+[site]
+bucket = "./public"
+entry-point = "workers-site"
