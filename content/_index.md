@@ -16,11 +16,8 @@ I'm interested in all aspects of software engineering, and engineering in genera
 I've been very interested in electronics as a hobby for many years, but I'm not getting that much better with time.
 I love taking pictures, and I'm a big lover of nature.
 
-You can contact me for any reason at [tiago@tdias.pt](mailto:tiago@tdias.pt).
-
-## Profiles
-
-- [https://github.com/tiagoad](https://github.com/tiagoad)
+Email: [tiago@tdias.pt](mailto:tiago@tdias.pt)  
+Github: [https://github.com/tiagoad](https://github.com/tiagoad)
 
 ## Projects
 
