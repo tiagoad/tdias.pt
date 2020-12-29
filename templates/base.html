@@ -1,0 +1,16 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    {% block head %}{% endblock %}
+    <meta name="author" content="{{ config.extra.author }}">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="wrapper {% if page %}page{% endif %}{% if section %}section{% endif %} {% if page.extra.css_class %}{{ page.css_class }}{% endif %}{% if section.extra.css_class %}{{ section.extra.css_class }}{% endif %}">
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>

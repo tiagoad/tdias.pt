@@ -1,0 +1,29 @@
+.wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+
+    font-family: sans-serif;
+}
+
+.wrapper.section.index {
+    margin-top: 4em;
+}
+
+header {
+    margin: 2em 0;
+
+    h1 {
+        margin: 0;
+    }
+
+    .subtitle {
+        font-style: italic;
+    }
+
+    .back {
+        margin-bottom: 1em;
+        display: block;
+        text-decoration: none !important;
+        color: blue;
+    }
+}

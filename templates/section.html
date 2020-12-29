@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block head %}
+<meta name="description" content="{{ section.description }}">
+<title>{{ section.title }} - {{ config.title }}</title>
+{% endblock %}
+
+{% block content %}
+    <header>
+        <a class="back" href="/">☚ Home</a>
+
+        <h1>{{ section.title }}</h1>
+    </header>
+
+    {{ section.content | safe }}
+{% endblock content %}

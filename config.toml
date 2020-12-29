@@ -1,0 +1,12 @@
+base_url = "https://tdias.pt"
+title = "Tiago Dias"
+description = "My personal blog."
+
+compile_sass = true
+highlight_code = true
+generate_feed = true
+
+build_search_index = false
+
+[extra]
+author = "Tiago Dias"
