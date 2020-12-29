@@ -7,15 +7,20 @@ template = "index.html"
 css_class = "index"
 +++
 
-I'm Tiago, a software developer from Lisbon (Portugal).
+I'm a software developer from [Lisbon, Portugal](https://en.wikipedia.org/wiki/Lisbon).
 
-I don't really aim to be a specialist in any specific field, moving up and down
-the stack as needed by whatever I'm working on.
+I like learning new stuff and talking about what I learned, and I hope to bring
+a bit of that online with this blog. 
 
-Mostly by coincidence, I've worked quite a bit in web scraping and automation 
-systems in the past (professionally). I've also done some data visualization for fun.
+I'm interested in all aspects of software engineering, and engineering in general.
+I've been very interested in electronics as a hobby for many years, but I'm not getting that much better with time.
+I love taking pictures, and I'm a big lover of nature.
 
-This is my personal website and blog, where I'll post occasionally and publish some of my personal projects.
+You can contact me for any reason at [tiago@tdias.pt](mailto:tiago@tdias.pt).
+
+## Profiles
+
+- [https://github.com/tiagoad](https://github.com/tiagoad)
 
 ## Projects
 
