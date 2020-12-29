@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     {% block head %}{% endblock %}
     <meta name="author" content="{{ config.extra.author }}">
+    {% if current_path %}<meta property="og:url" content="{{config.base_url | safe}}{{current_path | safe}}" />{% endif %}
     <link rel="alternate" type="application/atom+xml" title="Atom feed for tdias.pt" href="/atom.xml" />
     <link rel="stylesheet" href="/style.css" />
 </head>

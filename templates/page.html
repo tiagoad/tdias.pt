@@ -1,8 +1,10 @@
 {% extends "base.html" %}
 
 {% block head %}
-<meta name="description" content="{{ page.description }}">
-<title>{{ page.title }} - {{ config.title }}</title>
+    <title>{{ page.title }} - {{ config.title }}</title>
+    <meta property="og:title" content="{{ page.title }}">
+    <meta name="description" content="{{ page.description }}">
+    <meta property="og:description" content="{{ page.description }}">
 {% endblock %}
 
 {% block content %}
