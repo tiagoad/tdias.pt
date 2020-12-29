@@ -5,6 +5,9 @@
     <meta property="og:title" content="{{ page.title }}">
     <meta name="description" content="{{ page.description }}">
     <meta property="og:description" content="{{ page.description }}">
+    <meta property="og:type" content="article" />
+    <meta property="article:published_time" content="{{ page.date | date(format="%+") }}" />
+    <meta property="article:author" content="{{ config.extra.author }}" />
 {% endblock %}
 
 {% block content %}
