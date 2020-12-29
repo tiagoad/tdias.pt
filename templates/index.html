@@ -1,5 +1,10 @@
 {% extends "section.html" %}
 
+{% block head %}
+    <meta name="description" content="{{ config.description }}">
+    <title>{{ config.title }}</title>
+{% endblock %}
+
 {% block content %}
     <h1>{{ section.title }}</h1>
     {{ section.content | safe }}
