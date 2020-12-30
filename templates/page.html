@@ -21,4 +21,13 @@
     </header>
 
     {{ page.content | safe }}
+
+    <script src="https://utteranc.es/client.js"
+        repo="tiagoad/tdias.pt"
+        issue-term="{% if page.date %}{{ page.date | date(format="%Y-%m-%d") }} - {% endif %}{{ page.title }}"
+        label="comments"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+    </script>
 {% endblock content %}
